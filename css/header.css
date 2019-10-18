@@ -1,0 +1,322 @@
+/* GERAL */
+
+.cabecalho-geral{
+    background-color: rgba(0,0,0,.98);
+    background-image: linear-gradient(to right, transparent, grey 400%);
+    height: 7em;
+    z-index: 10;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+@media(max-width: 850px) {
+    .cabecalho-geral {
+        height: 7.5em;
+    }
+}
+
+@media(max-width: 680px) {
+    .cabecalho-geral {
+        height: 8.5em;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.logo-header{
+    opacity: 1;
+    position: absolute;
+    left: .5em;
+    margin-top: .5em;
+}
+
+@media(max-width: 850px) {
+    .logo-header{
+        margin-top: 1.2em;
+    }
+}
+
+@media(max-width: 680px) {
+    .logo-header{
+        width: 100%;
+        text-align: center;
+        left: 0;
+        right: 0;
+    }
+}
+
+/* MENU REDES SOCIAIS */
+
+.redes-sociais-header{
+    color: goldenrod;
+    height: inherit;
+    text-align: right;
+}
+
+.redes-sociais-header ul{
+    padding: 1em;
+    padding-bottom: 3em;
+}
+
+.redes-sociais-header li{
+    display: inline-block;
+}
+
+.redes-sociais-header a{
+    margin-top: 4.2em;
+    margin-left: 0em;
+    text-decoration: none;
+    display: inherit;
+    position: relative;
+    border-radius: 15px;
+}
+
+@media(max-width: 850px) {
+    .redes-sociais-header a{
+        margin-top: 9em;
+        font-size: 75%;
+    }
+}
+
+@media(max-width: 680px) {
+    .redes-sociais-header a{
+        margin-top: 10.5em;
+        margin-right: .5em;
+        margin-left: .5em;
+    }
+}
+
+.redes-sociais-header b{
+    color: yellow;
+    font-family: "Merienda", cursive;
+    font-size: 16px;
+    text-shadow: 1px 1px 22px goldenrod;
+    padding: 1em;
+    position: absolute;
+    opacity: .8;
+}
+
+@media(max-width: 680px) {
+    .redes-sociais-header b {
+        display: none;
+    }
+}
+
+.whatsapp-home{
+    background-image:url(/img/whatsapp_icon.png);
+    background-repeat: no-repeat;
+    width: 2em;
+    height: 2.7em;
+    margin-right: 1em;
+    position: absolute;
+    top: .7em;
+    transition: .3s cubic-bezier(0,3,.2,.5);
+}
+
+@media(max-width: 850px) {
+    .whatsapp-home{
+        background-image: url(/img/whatsapp_icon_dois.png);
+    }
+}
+
+.whatsapp-home:hover{
+    transform: scale(1.2,1.2);
+}
+
+.facebook-home{
+    width: 1.6em;
+    height: 1.7em;
+    background-image:url(/img/facebook_icon.png);
+    background-repeat: no-repeat;
+    margin-right: 1em;
+    border: 2px solid white;
+    transition: .3s cubic-bezier(0,3,.2,.5);
+}
+
+@media(max-width: 850px) {
+    .facebook-home{
+        background-image: url(/img/facebook_icon_dois.png);
+        border: 1.5px solid white;
+    }
+}
+
+header .facebook-home:hover{
+    transform: scale(1.2,1.2);
+}
+
+.instagram-home{
+    width: 1.6em;
+    height: 1.7em;
+    background-image:url(/img/instagram_icon.png);
+    background-repeat: no-repeat;
+    margin-right: 5em;
+    border: 2px solid white;
+    transition: .3s cubic-bezier(0,3,.2,.5);
+}
+
+@media(max-width: 850px) {
+    .instagram-home{
+        background-image:url(/img/instagram_icon_dois.png);
+        border: 1.5px solid white; 
+    }
+}
+
+header .instagram-home:hover{
+    transform: scale(1.2,1.2);
+}
+
+.citacao-um{
+    left: 8.5em;
+    top: 1.5em;
+}
+
+.citacao-dois{
+    left: 10em;
+    top: 4em;
+}
+
+/* MENU DE NAVEGAÇÃO */
+
+.menu-de-navegacao{
+    background: linear-gradient(to right, darkgoldenrod 20%, goldenrod 50%, gold 70%);
+    height: 2.5em;
+    padding-top: 1em;
+    margin-top: -2.7em;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+@media(max-width: 850px) {
+    .menu-de-navegacao {
+        display: none;
+    }
+}
+
+.menu-de-navegacao li{
+    display: inline-block;
+}
+
+.menu-de-navegacao li a{
+    font-family: "serif";
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+
+.menu-de-navegacao li a:hover{
+    color: darkgoldenrod;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+/* MENU HAMBURGUER */
+
+@media(min-width: 851px) {
+    .menu-mobile{
+        display: none;
+    }
+}
+
+header input{
+    display: none;
+}
+
+header input:checked ~ label .menu-hamburguer{
+    box-shadow: 0 0 0 150vh rgba(255,255,255,.65), 0 0 0 150vh rgba(255,255,255,.7);
+    transition: .5s ease-in-out;
+}
+
+header input:not(:checked) ~ label .menu-hamburguer{
+    box-shadow: 0 0 0 0 rgba(0,0,0,.4), 0 0 0 0 rgba(0,0,0,.4);
+    transition: .5s ease-in-out;
+}
+
+header input:not(:checked) ~ label .menu-hamburguer-links{
+    display: none;
+}
+
+header input:checked ~ label .menu-hamburguer-links ul{
+    opacity: 1;
+}
+
+header input:checked ~ label .hamburguer{
+    transform: rotate(45deg);
+}
+
+header input:checked ~ label .hamburguer:before{
+    transform: rotate(90deg);
+    top: 0;
+}
+
+header input:checked ~ label .hamburguer:after{
+    top: 0;
+}
+
+.menu-hamburguer{
+    background: rgba(255,255,255,.8);
+    width: 30px;
+    height: 30px;
+    border-radius: 15%;
+    position: fixed;
+    top: 10em;
+    right: 1em;
+    border: 2px solid goldenrod;
+    box-shadow: 0 0 0 0 white, 0 0 0 0 white;
+}
+
+.menu-hamburguer-links ul{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    opacity: 0;
+    transition: .5s .25s ease-in-out;
+}
+
+.menu-hamburguer-links li{
+    margin: 2em;
+}
+
+.menu-hamburguer-links a{
+    font-family: "Merienda", cursive;
+    color: darkgoldenrod;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hamburguer{
+    display: block;
+    background: darkgoldenrod;
+    width: 20px;
+    height: 2px;
+    position: relative;
+    top: 1em;
+    left: .4em;
+    transition: .5s ease-in-out;
+}
+
+.hamburguer::before,
+.hamburguer::after {
+    background: darkgoldenrod;
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: .5s ease-in-out;
+}
+
+.hamburguer::before{
+    top: -7.5px;
+}
+
+.hamburguer::after{
+    top: 7.5px;
+}

@@ -1,0 +1,131 @@
+/* GERAL */
+
+body{
+    background-color: black;
+}
+
+article h2:first-letter{
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+article h2{
+    color: goldenrod;
+    font-size: 180%;
+    padding: .6em;
+    padding-top: 1.8em;
+    margin-top: 5em;
+    text-shadow: 1px 1px 1px black;
+}
+
+@media (max-width: 440px) {
+    article h2{
+        font-size: 150%;
+        margin-top: 6em;
+    }
+}
+
+article h3{
+    font-size: 115%;
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+article footer .leia-mais-button-dois{
+    width: 18em;
+}
+
+.background-image-grande-mestre{
+    background-image: url(/img/background_cinco.jpg);
+    background-position: 50% 45%;
+}
+
+
+/* HISTÓRIA DE YIP MAN */
+
+.historia-yip-man{
+    font-size: 16px;
+    background-color: rgba(255,255,255,.85);
+    text-align: center;
+}
+
+@media(max-width: 750px) {
+    .historia-yip-man{
+    background-color: rgba(255,255,255,1);
+    }
+}
+
+.historia-yip-man p{
+    text-indent: 1em;
+    line-height: 1.6em;
+    margin: 1em;
+}
+
+.yip-man-foto-um{
+    width: 11em;
+    margin: 1em;
+    border: .2px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px black;
+}
+
+@media(max-width: 440px) {
+    .yip-man-foto-um{
+        width: 35%;
+    }
+}
+
+.yip-man-gif{
+    width: 28.5em;
+    margin: 1em;
+    border: .2px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px white;
+}
+
+@media(max-width: 500px) {
+    .yip-man-gif{
+        width: 90%;
+    }
+}
+
+@media(max-width: 320px) {
+    .yip-man-gif{
+        width: 85%;
+    }
+}
+
+.yip-man-foto-dois{
+    width: 7em;
+    margin: 1em;
+    border: .2px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px black;
+}
+
+@media(max-width: 400px) {
+    .yip-man-foto-dois{
+        width: 25%;
+    }
+}
+
+.academia-foto{
+    width: 32em;
+    margin: 1em;
+    border: .2px solid white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px white;
+}
+
+@media(max-width: 550px) {
+    .academia-foto{
+        width: 90%;
+    }
+}
+
+@media(max-width: 320px) {
+    .academia-foto{
+        width: 85%;
+    }
+}

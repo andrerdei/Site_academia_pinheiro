@@ -1,0 +1,95 @@
+/* GERAL */
+
+body{
+    background-color: black;
+}
+
+article h2:first-letter{
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+article h2{
+    color: goldenrod;
+    font-size: 180%;
+    padding: .6em;
+    padding-bottom: 1em;
+    text-shadow: 1px 1px 1px black;
+}
+
+@media (max-width: 375px) {
+    article h2{
+        font-size: 150%;
+    }
+}
+
+article footer .leia-mais-button-dois{
+    width: 20em;
+}
+
+.background-image-bio{
+    background-image: url(/img/background_quatro.jpg);
+    background-position: 50% 45%;
+}
+
+
+/* BIOGRAFIA DE THOMAS PINHEIRO */
+
+.biografia-thomas-pinheiro{
+    font-size: 16px;
+    background-color: rgba(255,255,255,.85);
+    text-align: center;
+    margin-top: 9em;
+}
+
+@media(max-width: 750px) {
+    .biografia-thomas-pinheiro{
+    background-color: rgba(255,255,255,1);
+    }
+}
+
+.biografia-thomas-pinheiro p{
+    text-indent: 1em;
+    line-height: 1.6em;
+    margin: 1em;
+}
+
+.foto-thomas-pinheiro-bio{
+    width: 35%;
+    margin: 1em;
+    margin-top: 3em;
+    border: .2px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black;
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+    .foto-thomas-pinheiro-bio{
+        width: 40%;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 800px) {
+    .foto-thomas-pinheiro-bio{
+        width: 45%;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 650px) {
+    .foto-thomas-pinheiro-bio{
+        width: 55%;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 550px) {
+    .foto-thomas-pinheiro-bio{
+        width: 65%;
+    }
+}
+
+@media(max-width: 400px) {
+    .foto-thomas-pinheiro-bio{
+        width: 75%;
+    }
+}
