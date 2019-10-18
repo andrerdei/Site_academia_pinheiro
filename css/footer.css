@@ -1,0 +1,161 @@
+/* RODAPÉ */
+
+.rodape-home{
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+    background-color: darkslategrey;
+    background-image: linear-gradient(to bottom right, transparent 88%, rgb(0,0,0,.7) 89.8%, rgb(0,0,0,.1) 90%, rgb(0,0,0,1 ) 95%), linear-gradient(to bottom left, transparent 88%, rgb(0,0,0,.7) 89.8%, rgb(0,0,0,.1) 90%, rgb(0,0,0,1 ) 95%), linear-gradient(to top right, transparent 88%, rgb(0,0,0,.7) 89.8%, rgb(0,0,0,.1) 90%, rgb(0,0,0,1 ) 95%), linear-gradient(to top left, transparent 88%, rgb(0,0,0,.7) 89.8%, rgb(0,0,0,.1) 90%, rgb(0,0,0,1 ) 95%), linear-gradient(to bottom, rgb(0,0,0,.6) 5%, rgb(0,0,0,.8) 50%, rgb(0,0,0,.6) 95%);
+    min-height: 20em;
+    position: relative;
+    box-shadow: 1px 2px 5px darkgoldenrod;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.rodape-inner{
+    max-width: 68em;
+    margin: auto;
+    position: relative;
+}
+
+.rodape-home ul{
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
+}
+
+@media(max-width: 510px){
+    .rodape-home{
+        font-size: 80%;
+    }
+}
+
+@media(min-width: 511px) and (max-width: 580px){
+    .rodape-home{
+        font-size: 80%;
+    }
+}
+
+.rodape-home li{
+    display: inline-block;
+    margin: .5em;
+}
+
+.rodape-home a{
+    color: white;
+    text-decoration: none;
+}
+
+.rodape-home li a:hover{
+    color: goldenrod;
+    text-shadow: 1px 1px 12px gold;
+}
+
+.rodape-home .primeira-linha{
+    margin-top: 0;
+}
+
+@media(max-width: 440px){
+    .rodape-home .quarta-linha{
+        display: none;
+    }
+}
+
+@media(max-width: 510px){
+    .rodape-home .primeira-linha{
+        display: none;
+    }
+}
+
+@media(min-width: 1100px){
+    .rodape-home .primeira-linha{
+        padding-right: 0em;
+    }
+}
+
+@media(min-width: 1100px){
+    .rodape-home .segunda-linha{
+        padding-left: 0em;
+    }
+}
+
+@media(min-width: 1100px){
+    .rodape-home .terceira-linha{
+        padding-right: 0em;
+    }
+}
+
+@media(min-width: 1100px){
+    .rodape-home .quarta-linha{
+        padding-left: 0em;
+    }
+}
+
+
+.rodape-home .imagem-pula-linha{
+    width: 80%;
+}
+
+@media(min-width:1200px){
+    .rodape-home .imagem-pula-linha{
+        width:100%;
+    }
+}
+
+.rodape-info-um{
+    padding-top: .3em;
+}
+
+.rodape-info-dois{
+    padding-top: .3em;   
+}
+
+.rodape-info-dois:hover{
+    text-shadow: 1px 1px 10px white;
+}
+
+@media(min-width: 1250px) {
+    .rodape-info-um,
+    .rodape-info-dois {
+        position: absolute;
+        top: 17em;
+        margin-top: 1em;
+    }
+}
+
+@media(min-width: 1250px) {
+    .rodape-info-um {
+        left: 13em;
+    }
+}
+
+@media(min-width: 1250px) {
+    .rodape-info-dois {
+        right: 13em;
+    }
+}
+
+.foto-logo-rodape-um{
+    float: left;
+    margin: 1em;
+    margin-top: 5em;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 500px;
+}
+
+.foto-logo-rodape-dois{
+    float: right;
+    margin: 1em;
+    margin-top: 5em;
+    box-shadow: 0px 0px 15px black;
+    border-radius 15px;
+    border-radius: 500px;
+}
+
+@media(max-width: 870px){
+    .foto-logo-rodape-um,
+    .foto-logo-rodape-dois{
+        display: none;
+    }
+}
