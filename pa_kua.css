@@ -1,0 +1,123 @@
+/* GERAL */
+
+body{
+    background-color: black;
+}
+
+article h2:first-letter{
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+article h2{
+    color: goldenrod;
+    font-size: 180%;
+    padding: .6em;
+    padding-top: 1.8em;
+    margin-top: 5em;
+    text-shadow: 1px 1px 1px black;
+}
+
+article h3{
+    font-size: 110%;
+    margin-top: 1em;
+}
+
+article footer .leia-mais-button-dois{
+    width: 19em;
+}
+
+section{
+    margin-bottom: 3em;
+}
+
+.background-image-pa-kua{
+    background-image: url(/img/background_sete.jpg);
+    background-position: 50% 35%;
+}
+
+
+/* HISTÓRIA DO PA KUA CHANG */
+
+.pa-kua-chang{
+    font-size: 16px;
+    background-color: rgba(255,255,255,.9);
+    text-align: center;
+}
+
+@media(max-width: 750px) {
+    .pa-kua-chang{
+    background-color: rgba(255,255,255,1);
+    }
+}
+
+.pa-kua-chang p{
+    text-indent: 1em;
+    line-height: 1.6em;
+    margin: 1em;
+}
+
+.mestre-ting-hua-foto{
+    width: 12em;
+    margin: 1em;
+    border: .2px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px black;
+}
+
+.mestre-kao-foto{
+    width: 11em;
+    margin: 1em;
+    margin-top: 0;
+    border: .2px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px black;
+}
+
+.mestre-ho-foto{
+    width: 11em;
+    margin: 1em;
+    border: .2px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px black;
+}
+
+.mestre-thomas-um-foto{
+    width: 10em;
+    margin: 1.5em;
+    border: .2px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px black;
+}
+
+.mestre-thomas-dois-foto{
+    width: 10em;
+    margin: 1.5em;
+    border: .2px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px black;
+}
+
+.mestre-thomas-tres-foto{
+    width: 10em;
+    margin: 1.5em;
+    border: .2px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px black;
+}
+
+@media(max-width: 340px) {
+    .mestre-ting-hua-foto,
+    .mestre-kao-foto,
+    .mestre-ho-foto,
+    .mestre-thomas-um-foto,
+    .mestre-thomas-dois-foto,
+    .mestre-thomas-tres-foto{
+        width: 45%;
+    }
+}
+
+.final-section{
+    margin-bottom: 0;
+}

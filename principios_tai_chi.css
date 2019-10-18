@@ -1,0 +1,129 @@
+/* GERAL */
+
+body{
+    background-color: black;
+}
+
+article h2:first-letter{
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+article h2{
+    color: goldenrod;
+    font-size: 180%;
+    padding: .6em;
+    padding-top: 1.8em;
+    margin-top: 5em;
+    text-shadow: 1px 1px 1px black;
+}
+
+@media(max-width: 400px) {
+    article h2{
+        font-size: 150%;
+        margin-top: 6em;
+    }
+}
+
+article h3{
+    font-size: 110%;
+    margin-top: 1em;
+}
+
+article h4{
+    font-size: 105%;
+    margin: 1em;
+}
+
+article footer .leia-mais-button-dois{
+    width: 10em;
+}
+
+section{
+    margin-bottom: 3em;
+}
+
+.background-image-tai-chi{
+    background-image: url(/img/background_seis.jpg);
+    background-position: 50% 45%;
+}
+
+
+/* PRINCÍPIOS DO TAI CHI CHUAN */
+
+.principios-tai-chi{
+    font-size: 16px;
+    background-color: rgba(255,255,255,.9);
+    text-align: center;
+}
+
+@media(max-width: 750px) {
+    .principios-tai-chi{
+    background-color: rgba(255,255,255,1);
+    }
+}
+
+.principios-tai-chi p{
+    text-indent: 1em;
+    line-height: 1.6em;
+    margin: 1em;
+}
+
+.mestre-thomas-um-foto{
+    width: 20em;
+    margin: 1em;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px black;
+}
+
+@media(max-width: 400px) {
+    .mestre-thomas-um-foto{
+        width: 80%;
+    }
+}
+
+.mestre-thomas-dois-foto{
+    width: 11em;
+    height: 15em;
+    margin: 1.5em;
+    border: .2px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px black;
+}
+
+.tai-chi-lua-foto{
+    width: 18em;
+    margin: 1.5em;
+    border: .2px solid black;
+    border-radius: 50px;
+    box-shadow: 1px 1px 15px black;
+}
+
+@media(max-width: 340px) {
+    .tai-chi-lua-foto{
+        width: 80%;
+    }
+}
+
+.mestre-thomas-tres-foto{
+    width: 10.5em;
+    height: 15em;
+    margin: 1.5em;
+    border: .2px solid white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px white;
+}
+
+@media(max-width: 340px) {
+    .mestre-thomas-dois-foto,
+    .mestre-thomas-tres-foto{
+        width: 40%;
+        height: 100%;
+    }
+}
+
+.final-section{
+    margin-bottom: 0;
+}

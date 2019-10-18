@@ -1,0 +1,99 @@
+/* GERAL */
+
+body{
+    background-color: black;
+}
+
+article h2:first-letter{
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+article h2{
+    color: goldenrod;
+    font-size: 180%;
+    padding: .6em;
+    padding-top: 2em;
+    text-shadow: 1px 1px 1px black;
+}
+
+@media(max-width: 375px) {
+    article h2{
+        font-size: 150%;
+    }
+}
+
+article h3{
+    color: goldenrod;
+    font-size: 135%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-shadow: 1px 1px 1px black;
+}
+
+article h4{
+    font-size: 115%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+article ul{
+    color: black;
+    font-size: 110%;
+    width: 65%;
+    margin: auto;
+    padding: .5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 2px solid black;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 11px black;
+}
+
+@media(min-width: 751px) and (max-width: 950px) {
+    article ul{
+        width: 80%;
+    }
+}
+
+@media(max-width: 750px) {
+    article ul{
+        width: 95%;
+    }
+}
+
+article li{
+    padding: 1em;
+}
+
+article footer .leia-mais-button-dois{
+    width: 18em;
+}
+
+.background-image-conteudo-treino{
+    background-image: url(/img/background_quatro.jpg);
+    background-position: 50% 45%;
+}
+
+
+/* CONTEÚDO DE TREINO E REGRAS DA ACADEMIA */
+
+.conteudo-treino-regras{
+    font-size: 16px;
+    background-color: rgba(255,255,255,.85);
+    text-align: center;
+    margin-top: 9em;
+}
+
+@media(max-width: 750px) {
+    .conteudo-treino-regras{
+    background-color: rgba(255,255,255,1);
+    }
+}
+
+.conteudo-treino-regras p{
+    text-indent: 1em;
+    line-height: 1.6em;
+    margin: 1em;
+}
