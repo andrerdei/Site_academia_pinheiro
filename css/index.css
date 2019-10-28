@@ -47,18 +47,18 @@ article footer a:hover{
 }
 
 .background-image-um{
-    background-image: url(/img/background_um.jpg);
+    background-image: url("../img/background_um.jpg");
     box-shadow: 1px 1px 5px darkgoldenrod;
 }
 
 .background-image-dois{
-    background-image: url(/img/background_dois.jpg);
+    background-image: url("../img/background_dois.jpg");
     background-position: 50% 0;
     box-shadow: 1px 1px 5px darkgoldenrod;
 }
 
 .background-image-tres{
-    background-image: url(/img/background_tres.jpg);
+    background-image: url("../img/background_tres.jpg");
     background-position: 50% 0;
     background-attachment: local;
 }
