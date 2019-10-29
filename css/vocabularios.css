@@ -75,7 +75,7 @@ article footer #botao-excessao{
 }
 
 .background-image-vocabularios{
-    background-image: url(/img/background_nove.jpg);
+    background-image: url("../img/background_nove.jpg");
     background-position: 88% -45%;
 }
 

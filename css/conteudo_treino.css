@@ -72,7 +72,7 @@ article footer .leia-mais-button-dois{
 }
 
 .background-image-conteudo-treino{
-    background-image: url(/img/background_quatro.jpg);
+    background-image: url("../img/background_quatro.jpg");
     background-position: 50% 45%;
 }
 

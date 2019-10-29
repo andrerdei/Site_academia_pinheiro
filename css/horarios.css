@@ -93,7 +93,7 @@ section footer .leia-mais-button-dois{
 }
 
 .background-image-horarios{
-    background-image: url(/img/background_oito.jpg);
+    background-image: url("../img/background_oito.jpg");
     background-position: 88% 45%;
 }
 

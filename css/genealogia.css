@@ -38,7 +38,7 @@ div footer .leia-mais-button-dois{
 }
 
 .background-image-genealogia{
-    background-image: url(/img/background_cinco.jpg);
+    background-image: url("../img/background_cinco.jpg");
     background-position: 50% 45%;
 }
 

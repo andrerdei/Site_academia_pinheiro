@@ -40,7 +40,7 @@ section{
 }
 
 .background-image-tai-chi{
-    background-image: url(/img/background_seis.jpg);
+    background-image: url("../img/background_seis.jpg");
     background-position: 50% 35%;
 }
 

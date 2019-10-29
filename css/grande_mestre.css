@@ -37,7 +37,7 @@ article footer .leia-mais-button-dois{
 }
 
 .background-image-grande-mestre{
-    background-image: url(/img/background_cinco.jpg);
+    background-image: url("../img/background_cinco.jpg");
     background-position: 50% 45%;
 }
 

@@ -45,7 +45,7 @@ div footer #botao-videos{
 }
 
 .background-image-apresentacoes{
-    background-image: url(/img/background_festa.jpg);
+    background-image: url("../img/background_festa.jpg");
     background-position: 50% 45%;
 }
 

@@ -54,7 +54,7 @@ article footer .leia-mais-button-dois{
 }
 
 .background-image-artigos{
-    background-image: url(/img/background_nove.jpg);
+    background-image: url("../img/background_nove.jpg");
     background-position: 88% -45%;
 }
 

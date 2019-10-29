@@ -33,7 +33,7 @@ section{
 }
 
 .background-image-pa-kua{
-    background-image: url(/img/background_sete.jpg);
+    background-image: url("../img/background_sete.jpg");
     background-position: 50% 35%;
 }
 
