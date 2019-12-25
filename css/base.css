@@ -11,6 +11,24 @@ body{
     font-family: "arial", "sans-serif";
 }
 
+body:focus{
+    outline: none;
+}
+
+body a{
+    -webkit-tap-highlight-color: transparent;
+    -khtml-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+}
+
+body form{
+    -webkit-tap-highlight-color: transparent;
+    -khtml-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+}
+
 body h2{
     font-weight: bold;
     text-transform:uppercase;

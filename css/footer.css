@@ -111,8 +111,10 @@
     padding-top: .3em;   
 }
 
-.rodape-info-dois:hover{
-    text-shadow: 1px 1px 10px white;
+@media screen and (hover: hover){
+    .rodape-info-dois:hover{
+        text-shadow: 1px 1px 10px white;
+    }
 }
 
 @media(min-width: 1250px) {

@@ -58,6 +58,7 @@
 .redes-sociais-header ul{
     padding: 1em;
     padding-bottom: 3em;
+    padding-top: 1.5em;
 }
 
 .redes-sociais-header li{
@@ -75,14 +76,14 @@
 
 @media(max-width: 850px) {
     .redes-sociais-header a{
-        margin-top: 9em;
+        margin-top: 8.5em;
         font-size: 75%;
     }
 }
 
 @media(max-width: 680px) {
     .redes-sociais-header a{
-        margin-top: 10.5em;
+        margin-top: 10.8em;
         margin-right: .5em;
         margin-left: .5em;
     }
@@ -105,13 +106,11 @@
 }
 
 .whatsapp-home{
+    width: 2.2em;
+    height: 2.2em;
     background-image:url("../img/whatsapp_icon.png");
     background-repeat: no-repeat;
-    width: 2em;
-    height: 2.7em;
-    margin-right: 1em;
-    position: absolute;
-    top: .7em;
+    margin-right: .25em;
     transition: .3s cubic-bezier(0,3,.2,.5);
 }
 
@@ -121,50 +120,40 @@
     }
 }
 
-.whatsapp-home:hover{
-    transform: scale(1.2,1.2);
-}
-
 .facebook-home{
-    width: 1.6em;
-    height: 1.7em;
+    width: 2.2em;
+    height: 2.2em;
     background-image:url("../img/facebook_icon.png");
     background-repeat: no-repeat;
-    margin-right: 1em;
-    border: 2px solid white;
+    margin-right: .25em;
     transition: .3s cubic-bezier(0,3,.2,.5);
 }
 
 @media(max-width: 850px) {
     .facebook-home{
         background-image: url("../img/facebook_icon_dois.png");
-        border: 1.5px solid white;
     }
 }
 
-header .facebook-home:hover{
-    transform: scale(1.2,1.2);
-}
-
 .instagram-home{
-    width: 1.6em;
-    height: 1.7em;
+    width: 2.2em;
+    height: 2.2em;
     background-image:url("../img/instagram_icon.png");
     background-repeat: no-repeat;
     margin-right: 5em;
-    border: 2px solid white;
     transition: .3s cubic-bezier(0,3,.2,.5);
 }
 
 @media(max-width: 850px) {
     .instagram-home{
         background-image:url("../img/instagram_icon_dois.png");
-        border: 1.5px solid white; 
     }
 }
 
-header .instagram-home:hover{
-    transform: scale(1.2,1.2);
+@media screen and (hover: hover){
+    .whatsapp-home:hover, .instagram-home:hover, .facebook-home:hover{
+        transform: scale(1.2,1.2);
+    }
 }
 
 .citacao-um{

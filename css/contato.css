@@ -179,10 +179,12 @@ form button:hover{
     text-decoration: none;
 }
 
-.contato p a:hover{
-    color: goldenrod;
-    font-size: 105%;
-    text-shadow: 1px 1px 1px black;
+@media screen and (hover: hover){
+    .contato p a:hover{
+        color: goldenrod;
+        font-size: 105%;
+        text-shadow: 1px 1px 1px black;
+    }
 }
 
 .contato p{
@@ -202,9 +204,11 @@ form button:hover{
     padding-bottom: 1.2em;
 }
 
-.foto-maps:hover{
-    transform: scale(1.01,1.01);
-    transition: .3s cubic-bezier(0,1,.2,2);
+@media screen and (hover: hover){
+  .foto-maps:hover{
+        transform: scale(1.01,1.01);
+        transition: .3s cubic-bezier(0,1,.2,2);
+    }  
 }
 
 @media(max-width: 430px) {
