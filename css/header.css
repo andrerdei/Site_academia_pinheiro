@@ -11,15 +11,8 @@
     top: 0;
 }
 
-@media(max-width: 850px) {
+@media screen and (max-width: 680px) {
     .cabecalho-geral {
-        height: 7.5em;
-    }
-}
-
-@media(max-width: 680px) {
-    .cabecalho-geral {
-        height: 8.5em;
         display: flex;
         flex-direction: column;
     }
@@ -32,20 +25,16 @@
     margin-top: .5em;
 }
 
-@media(max-width: 850px) {
+@media screen and (max-width: 680px) {
     .logo-header{
-        margin-top: 1.2em;
+        transform: scale(.8);
+        width: 100%;
+        text-align: center;
+        left: -.05em;
+        margin-top: .2em;
     }
 }
 
-@media(max-width: 680px) {
-    .logo-header{
-        width: 100%;
-        text-align: center;
-        left: 0;
-        right: 0;
-    }
-}
 
 /* MENU REDES SOCIAIS */
 
@@ -74,18 +63,19 @@
     border-radius: 15px;
 }
 
-@media(max-width: 850px) {
+@media screen and (max-width: 850px), (max-height: 600px) {
     .redes-sociais-header a{
         margin-top: 8.5em;
         font-size: 75%;
     }
 }
 
-@media(max-width: 680px) {
+@media screen and (max-width: 680px) {
     .redes-sociais-header a{
-        margin-top: 10.8em;
+        margin-top: 8.5em;
         margin-right: .5em;
         margin-left: .5em;
+        font-size: 75%;
     }
 }
 
@@ -99,7 +89,7 @@
     opacity: .8;
 }
 
-@media(max-width: 680px) {
+@media screen and (max-width: 680px) {
     .redes-sociais-header b {
         display: none;
     }
@@ -114,7 +104,7 @@
     transition: .3s cubic-bezier(0,3,.2,.5);
 }
 
-@media(max-width: 850px) {
+@media screen and (max-width: 850px), (max-height: 600px) {
     .whatsapp-home{
         background-image: url("../img/whatsapp_icon_dois.png");
     }
@@ -129,7 +119,7 @@
     transition: .3s cubic-bezier(0,3,.2,.5);
 }
 
-@media(max-width: 850px) {
+@media screen and (max-width: 850px), (max-height: 600px) {
     .facebook-home{
         background-image: url("../img/facebook_icon_dois.png");
     }
@@ -144,7 +134,7 @@
     transition: .3s cubic-bezier(0,3,.2,.5);
 }
 
-@media(max-width: 850px) {
+@media screen and (max-width: 850px), (max-height: 600px) {
     .instagram-home{
         background-image:url("../img/instagram_icon_dois.png");
     }
@@ -178,7 +168,13 @@
     border-radius: 50px;
 }
 
-@media(max-width: 850px) {
+@media screen and (max-height: 600px){
+    .menu-de-navegacao {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px){
     .menu-de-navegacao {
         display: none;
     }
@@ -205,9 +201,15 @@
 
 /* MENU HAMBURGUER */
 
-@media(min-width: 851px) {
+@media screen and (min-width: 850px) {
     .menu-mobile{
         display: none;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .menu-mobile{
+        display: block;
     }
 }
 
@@ -215,9 +217,18 @@ header input{
     display: none;
 }
 
-header input:checked ~ label .menu-hamburguer{
-    box-shadow: 0 0 0 150vh rgba(255,255,255,.65), 0 0 0 150vh rgba(255,255,255,.7);
-    transition: .5s ease-in-out;
+@media screen and (orientation: portrait){
+    header input:checked ~ label .menu-hamburguer{
+        box-shadow: 0 0 0 150vh rgba(255,255,255,.65), 0 0 0 150vh rgba(255,255,255,.7);
+        transition: .5s ease-in-out;
+    }
+}
+
+@media screen and (orientation: landscape){
+    header input:checked ~ label .menu-hamburguer{
+        box-shadow: 0 0 0 150vw rgba(255,255,255,.65), 0 0 0 150vw rgba(255,255,255,.7);
+        transition: .5s ease-in-out;
+    }
 }
 
 header input:not(:checked) ~ label .menu-hamburguer{
@@ -252,7 +263,7 @@ header input:checked ~ label .hamburguer:after{
     height: 30px;
     border-radius: 15%;
     position: fixed;
-    top: 10em;
+    top: 8.5em;
     right: 1em;
     border: 2px solid goldenrod;
     box-shadow: 0 0 0 0 white, 0 0 0 0 white;
@@ -260,7 +271,7 @@ header input:checked ~ label .hamburguer:after{
 
 .menu-hamburguer-links ul{
     position: absolute;
-    top: 100%;
+    top: 35%;
     width: 100%;
     text-align: center;
     display: block;
@@ -268,14 +279,26 @@ header input:checked ~ label .hamburguer:after{
     transition: .5s .25s ease-in-out;
 }
 
+@media screen and (orientation: landscape){
+    .menu-hamburguer-links ul{
+        top: 0%;
+    }
+}
+
 .menu-hamburguer-links li{
-    margin: 2em;
+    margin: 6.5vh;
+}
+
+@media screen and (orientation: landscape){
+    .menu-hamburguer-links li{
+        margin: 5vh;
+    }
 }
 
 .menu-hamburguer-links a{
     font-family: "Merienda", cursive;
     color: darkgoldenrod;
-    font-size: 20px;
+    font-size: 3vh;
     text-decoration: none;
     font-weight: bold;
 }
