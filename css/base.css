@@ -29,6 +29,10 @@ body form{
     -ms-tap-highlight-color: transparent;
 }
 
+::-webkit-scrollbar {
+display: none;
+}
+
 body h2{
     font-weight: bold;
     text-transform:uppercase;
