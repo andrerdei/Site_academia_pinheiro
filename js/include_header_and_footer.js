@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.include-header').load('../header.html');
+    $('.include-header').load('../artigo_1.html.html');
 });
 
 $(document).ready(function() {
