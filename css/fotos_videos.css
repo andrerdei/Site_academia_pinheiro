@@ -95,7 +95,7 @@ div footer #botao-videos{
     width: 299px;
     height: 168px;
     margin: 1em;
-
+    border: none;
     box-shadow: 1px 1px 10px black;
     text-align: center;
 }
