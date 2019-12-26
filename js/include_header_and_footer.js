@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    $('.include-header').load('../artigo_1.html.html');
+    $(".include-header").load("../header.html");
 });
 
 $(document).ready(function() {
-    $('.include-footer').load('../footer.html');
+    $(".include-footer").load("../footer.html");
 });
