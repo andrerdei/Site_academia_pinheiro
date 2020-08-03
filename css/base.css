@@ -55,6 +55,7 @@ body h2::first-letter{
 .container-flex-um{
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 @media (max-width: 1000px){
